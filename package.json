@@ -6,6 +6,7 @@
 		"android": "react-native run-android",
 		"ios": "react-native run-ios",
 		"start": "react-native start",
+		"pod": "cd ios && pod install && cd ..",
 		"test": "jest",
 		"check-types": "tsc --noemit",
 		"eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -20,8 +21,24 @@
 		]
 	},
 	"dependencies": {
+		"@react-native-masked-view/masked-view": "^0.2.9",
+		"@react-navigation/native": "^6.1.7",
+		"@react-navigation/stack": "^6.3.17",
+		"@reduxjs/toolkit": "^1.9.5",
+		"axios": "^1.4.0",
+		"i18next": "21.8.16",
 		"react": "18.2.0",
-		"react-native": "0.72.3"
+		"react-i18next": "^13.0.2",
+		"react-native": "0.72.3",
+		"react-native-bootsplash": "^4.7.5",
+		"react-native-gesture-handler": "^2.12.0",
+		"react-native-responsive-screen": "git+https://github.com/swalahamani/react-native-responsive-screen.git",
+		"react-native-safe-area-context": "^4.7.1",
+		"react-native-screens": "^3.23.0",
+		"react-redux": "^8.1.2",
+		"redux": "^4.2.1",
+		"redux-logger": "^3.0.6",
+		"redux-thunk": "^2.4.2"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.20.0",
@@ -34,6 +51,7 @@
 		"@tsconfig/react-native": "^3.0.0",
 		"@types/react": "^18.0.24",
 		"@types/react-test-renderer": "^18.0.0",
+		"@types/redux-logger": "^3.0.9",
 		"babel-jest": "^29.2.1",
 		"babel-plugin-module-resolver": "^5.0.0",
 		"eslint": "^8.19.0",
