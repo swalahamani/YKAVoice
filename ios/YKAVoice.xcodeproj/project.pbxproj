@@ -34,6 +34,8 @@
 		BABB8C692A79E1D600160499 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BABB8C562A79E1D600160499 /* FontAwesome5_Solid.ttf */; };
 		BABB8C6A2A79E1D600160499 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BABB8C572A79E1D600160499 /* FontAwesome6_Brands.ttf */; };
 		BAD9A2C82A7765A90074E7B3 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD9A2C72A7765A90074E7B3 /* BootSplash.storyboard */; };
+		0BF7ED00417E43BA8E6F965C /* remixicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42F47496D89E42D6A4EF7BDB /* remixicon.ttf */; };
+		E92AE5BCECC8470E8BD572CF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 08B0AA239C124D3E829CB440 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		BABB8C572A79E1D600160499 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
 		BAD9A2C72A7765A90074E7B3 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = YKAVoice/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		42F47496D89E42D6A4EF7BDB /* remixicon.ttf */ = {isa = PBXFileReference; name = "remixicon.ttf"; path = "../src/assets/fonts/remixicon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08B0AA239C124D3E829CB440 /* .gitkeep */ = {isa = PBXFileReference; name = ".gitkeep"; path = "../src/assets/fonts/.gitkeep"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				59D893EA3A334E4CA93A5A2C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -215,6 +220,16 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		59D893EA3A334E4CA93A5A2C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				42F47496D89E42D6A4EF7BDB /* remixicon.ttf */,
+				08B0AA239C124D3E829CB440 /* .gitkeep */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -332,6 +347,8 @@
 				BABB8C5F2A79E1D600160499 /* AntDesign.ttf in Resources */,
 				BABB8C6A2A79E1D600160499 /* FontAwesome6_Brands.ttf in Resources */,
 				BABB8C5B2A79E1D600160499 /* MaterialIcons.ttf in Resources */,
+				0BF7ED00417E43BA8E6F965C /* remixicon.ttf in Resources */,
+				E92AE5BCECC8470E8BD572CF /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

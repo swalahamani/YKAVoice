@@ -1,6 +1,6 @@
 import React, {FC, useEffect, useState} from "react";
 
-import {View, Text} from "react-native";
+import {View} from "react-native";
 
 import {
 	listenOrientationChange,
@@ -10,6 +10,9 @@ import {
 import {useTranslation} from "react-i18next";
 
 import {useThemeAwareObject} from "@styles/theming/ThemingHelper";
+
+import VoiceRecorder from "components/voiceRecorder";
+import Button from "components/button";
 
 import PortStyles from "./PortStyles";
 
@@ -51,9 +54,9 @@ const HomeScreen: FC<Props> = () => {
 
 	return (
 		<View style={getStyles().container}>
-			<Text>YKAVoice HomeScreen</Text>
+			<VoiceRecorder />
 
-			<Text>{t("HELLO")}</Text>
+			<Button style={getStyles().generateBtn} label={t("Button")} />
 		</View>
 	);
 };

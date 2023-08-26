@@ -9,5 +9,5 @@
  *
  * FIXME: change this to actual value when the design is ready.
  */
-export const BASE_SCREEN_DESIGN_WIDTH = 0;
-export const BASE_SCREEN_DESIGN_HEIGHT = 0;
+export const BASE_SCREEN_DESIGN_WIDTH = 1170;
+export const BASE_SCREEN_DESIGN_HEIGHT = 2532;

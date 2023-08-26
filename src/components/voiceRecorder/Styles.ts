@@ -2,24 +2,22 @@ import {StyleSheet} from "react-native";
 
 import {iTheme} from "@config/types/ThemeTypes";
 
-import {wp} from "@utils/ResponsiveScreenUtil";
+import {hp, wp} from "@utils/ResponsiveScreenUtil";
 
 const createStyles = (theme: iTheme) => {
 	const styles = StyleSheet.create({
 		container: {
-			flex: 1,
+			flexDirection: "row",
+
 			justifyContent: "flex-start",
 			alignItems: "center",
 
-			backgroundColor: theme.colors.neutrals.background.screen,
+			width: wp(90, true),
+			height: hp(20, true),
 
-			paddingTop: wp(5, true),
-
-			width: wp(100, true),
-		},
-
-		generateBtn: {
-			marginTop: wp(5, true),
+			borderRadius: 10,
+			borderWidth: 1,
+			borderColor: theme.colors.primary,
 		},
 	});
 

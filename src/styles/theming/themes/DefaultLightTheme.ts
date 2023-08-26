@@ -3,15 +3,18 @@ import {iColorTheme, iTheme} from "@config/types/ThemeTypes";
 import Colors from "@styles/Colors";
 
 const colors: iColorTheme = {
-	primary: Colors.WHITE,
+	primary: Colors.BLACK,
+
+	secondary: Colors.WHITE,
 
 	accents: {
-		first: Colors.WHITE,
+		first: Colors.BLACK,
 	},
 
 	neutrals: {
 		background: {
 			screen: Colors.WHITE,
+			statusBar: Colors.BLACK,
 		},
 
 		font: {

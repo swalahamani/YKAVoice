@@ -3,6 +3,7 @@ import {ColorValue} from "react-native";
 export interface iNeutrals {
 	background: {
 		screen: ColorValue;
+		statusBar: ColorValue;
 	};
 
 	font: {
@@ -32,6 +33,8 @@ export interface iSemanticColors {
 
 export interface iColorTheme {
 	primary: ColorValue;
+
+	secondary: ColorValue;
 
 	accents: iAccentColors;
 

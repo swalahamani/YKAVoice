@@ -3,7 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>UIAppFonts</key>
-	<!-- Added as part of setting up react-native-vector-icons -->
 	<array>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
@@ -24,6 +23,7 @@
 		<string>Octicons.ttf</string>
 		<string>Zocial.ttf</string>
 		<string>Fontisto.ttf</string>
+		<string>remixicon.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
@@ -59,7 +59,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>BootSplash</string>
 	<key>UIRequiredDeviceCapabilities</key>
