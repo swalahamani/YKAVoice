@@ -9,10 +9,10 @@ import {
 } from "react-native-responsive-screen";
 import {useTranslation} from "react-i18next";
 
-import {useThemeAwareObject} from "@styles/theming/ThemingHelper";
+import VoiceRecorder from "@components/voiceRecorder";
+import Button from "@components/button";
 
-import VoiceRecorder from "components/voiceRecorder";
-import Button from "components/button";
+import {useThemeAwareObject} from "@styles/theming/ThemingHelper";
 
 import PortStyles from "./PortStyles";
 

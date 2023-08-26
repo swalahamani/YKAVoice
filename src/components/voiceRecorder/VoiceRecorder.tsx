@@ -2,8 +2,9 @@ import React, {FC} from "react";
 
 import {View} from "react-native";
 
-import {useThemeAwareObject} from "styles/theming/ThemingHelper";
-import IconLabel from "components/iconLabel";
+import IconLabel from "@components/iconLabel";
+
+import {useThemeAwareObject} from "@styles/theming/ThemingHelper";
 
 import Styles from "./Styles";
 
